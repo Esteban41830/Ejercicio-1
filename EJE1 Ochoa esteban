@@ -1,4 +1,9 @@
 class Email:
+    __idCuenta = ''
+    __dominio = ''
+    __tipoDominio = ''
+    __Contraseña = 1
+    
     def __init__(self,idCuenta,dominio,tipoDominio,Contraseña):
       self.__idCuenta = idCuenta
       self.__dominio = dominio
